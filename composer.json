@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/symfony-options-resolver",
+    "description": "Tyhp type definitions for symfony/options-resolver 7.4.8.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "7.4.8",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/symfony-options-resolver-impl": "~7.4.8.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/symfony-options-resolver-impl"
+        }
+    }
+}
